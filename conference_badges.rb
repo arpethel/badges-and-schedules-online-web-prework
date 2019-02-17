@@ -28,7 +28,7 @@ def printer(list)
   # new_list = []
   batch_badge_creator(list).each do |badge|
     assign_rooms(list).each do |rm_assignment|
-      list << rm_assignment
+      list << badge + rm_assignment
     end
   end
   puts list
