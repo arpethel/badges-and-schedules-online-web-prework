@@ -22,7 +22,7 @@ def assign_rooms(list_of_speakers)
   return assignments
 end
 
-def printer
+def printer(list)
   messages = []
   speakers = []
   batch_badge_creator(messages).each do |message|
