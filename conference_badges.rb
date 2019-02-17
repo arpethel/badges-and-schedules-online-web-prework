@@ -28,12 +28,12 @@ def printer(list)
   list_badge = []
 
   batch_badge_creator(list).each do |badge|
-    list_badge << badge.chomp
+    list_badge << badge
   end
   puts list_badge
 
   assign_rooms(list).each do |rm_assignment|
-    list_assigned_rooms << rm_assignment.chomp
+    list_assigned_rooms << rm_assignment
   end
   puts list_assigned_rooms
   # list << badge.concat(rm_assignment)
