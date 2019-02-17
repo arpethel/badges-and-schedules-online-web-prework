@@ -33,11 +33,3 @@ def printer
     puts
   end
 end
-
-
-
-
-
-
-
-    
