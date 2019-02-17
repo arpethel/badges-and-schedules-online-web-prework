@@ -33,7 +33,7 @@ def printer(list)
   end
   # puts list_badge
 
-  list_all << list_badge
+  # list_all << list_badge
 
   assign_rooms(list).each do |rm_assignment|
     puts rm_assignment
@@ -41,7 +41,7 @@ def printer(list)
   end
   # puts list_assigned_rooms
 
-  list_all << list_assigned_rooms
+  # list_all << list_assigned_rooms
   # puts list_all
-  return list_all
+  # return list_all
 end
