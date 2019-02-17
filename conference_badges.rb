@@ -28,9 +28,10 @@ def printer(list)
   list_badge = []
 
   batch_badge_creator(list).each do |badge|
+    puts badge
     list_badge << badge
   end
-  puts list_badge
+  # puts list_badge
 
   list_all << list_badge
 
