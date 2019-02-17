@@ -25,17 +25,18 @@ end
 def printer(list)
   # messages = []
   # speakers = []
-  # new_list = []
+  list_badge = []
   batch_badge_creator(list).each do |badge|
-    puts badge
-    list << badge.chomp
+    # puts badge
+    list_badge << badge.chomp
   end
-  assign_rooms(list).each do |rm_assignment|
-    puts rm_assignment
-    list << rm_assignment.chomp
-  end
+  puts list_badge
+  # assign_rooms(list).each do |rm_assignment|
+  #   puts rm_assignment
+  #   list << rm_assignment.chomp
+  # end
 
   # list << badge.concat(rm_assignment)
-  return list
+  return list_badge
 
 end
