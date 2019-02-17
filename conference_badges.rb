@@ -23,15 +23,15 @@ def assign_rooms(list_of_speakers)
 end
 
 def printer(list)
-  messages = []
-  speakers = []
-  new_list = []
-  batch_badge_creator(messages).each do |badge|
-    assign_rooms(speakers).each do |rm_assignment|
-      new_list << badge
+  # messages = []
+  # speakers = []
+  # new_list = []
+  batch_badge_creator(list).each do |badge|
+    assign_rooms(list).each do |rm_assignment|
+      list << badge
     end
   end
-  puts new_list
-  return new_list
+  puts list
+  return list
   
 end
