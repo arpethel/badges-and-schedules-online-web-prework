@@ -29,19 +29,11 @@ def printer(list)
 
   batch_badge_creator(list).each do |badge|
     puts badge
-    list_badge << badge
+    # list_badge << badge
   end
-  # puts list_badge
-
-  # list_all << list_badge
 
   assign_rooms(list).each do |rm_assignment|
     puts rm_assignment
-    list_assigned_rooms << rm_assignment
+    # list_assigned_rooms << rm_assignment
   end
-  # puts list_assigned_rooms
-
-  # list_all << list_assigned_rooms
-  # puts list_all
-  # return list_all
 end
