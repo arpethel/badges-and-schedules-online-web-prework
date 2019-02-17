@@ -31,7 +31,7 @@ def printer(list)
     list_badge << badge.chomp
   end
   puts list_badge
-  
+
   assign_rooms(list).each do |rm_assignment|
     list_assigned_rooms << rm_assignment.chomp
   end
