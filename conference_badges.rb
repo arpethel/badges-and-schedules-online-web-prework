@@ -26,12 +26,13 @@ def printer(list)
   list_all = []
   list_assigned_rooms = []
   list_badge = []
-  puts batch_badge_creator(list[0])
+  list_badge << batch_badge_creator(list[0])
+  puts list_badge
   # batch_badge_creator(list).each do |badge|
   #   list_badge << badge.chomp
   # end
   # puts list_badge
-  puts assign_rooms(list[0])
+  # puts assign_rooms(list[0])
   # assign_rooms(list).each do |rm_assignment|
   #   list_assigned_rooms << rm_assignment.chomp
   # end
