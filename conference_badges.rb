@@ -39,7 +39,7 @@ def printer(list)
     puts rm_assignment
     list_assigned_rooms << rm_assignment
   end
-  puts list_assigned_rooms
+  # puts list_assigned_rooms
 
   list_all << list_assigned_rooms
   puts list_all
