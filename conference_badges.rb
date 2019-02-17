@@ -42,6 +42,6 @@ def printer(list)
   # puts list_assigned_rooms
 
   list_all << list_assigned_rooms
-  puts list_all
+  # puts list_all
   return list_all
 end
