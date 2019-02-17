@@ -33,5 +33,5 @@ def printer(list)
   end
   puts list
   return list
-  
+
 end
