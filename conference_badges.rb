@@ -32,11 +32,14 @@ def printer(list)
   end
   puts list_badge
 
+  list_all << list_badge
+  
   assign_rooms(list).each do |rm_assignment|
     list_assigned_rooms << rm_assignment
   end
   puts list_assigned_rooms
-  # list << badge.concat(rm_assignment)
-  # return list_badge
 
+  list_all << list_assigned_rooms
+  puts list_all
+  return list_all
 end
