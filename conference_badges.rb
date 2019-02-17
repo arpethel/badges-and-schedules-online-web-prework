@@ -31,11 +31,11 @@ def printer(list)
     list_badge << badge.chomp
   end
   puts list_badge
-  # puts assign_rooms(list[0])
-  # assign_rooms(list).each do |rm_assignment|
-  #   list_assigned_rooms << rm_assignment.chomp
-  # end
-  # puts list_assigned_rooms
+  
+  assign_rooms(list).each do |rm_assignment|
+    list_assigned_rooms << rm_assignment.chomp
+  end
+  puts list_assigned_rooms
   # list << badge.concat(rm_assignment)
   # return list_badge
 
