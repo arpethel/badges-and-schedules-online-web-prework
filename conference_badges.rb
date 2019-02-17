@@ -38,6 +38,6 @@ def printer(list)
   # end
   # puts list_assigned_rooms
   # list << badge.concat(rm_assignment)
-  # return list_badge
+  return list_badge
 
 end
