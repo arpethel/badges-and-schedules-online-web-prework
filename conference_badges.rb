@@ -21,3 +21,23 @@ def assign_rooms(list_of_speakers)
   end
   return assignments
 end
+
+def printer
+  messages = []
+  speakers = []
+  batch_badge_creator(messages).each do |message|
+    print message
+    assign_rooms(speakers).each do |speaker|
+      print speaker
+    end
+    puts
+  end
+end
+
+
+
+
+
+
+
+    
