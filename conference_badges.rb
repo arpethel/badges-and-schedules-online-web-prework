@@ -27,9 +27,9 @@ def printer(list)
   speakers = []
   list = []
   batch_badge_creator(messages).each do |badge|
-    puts badge
+    puts badge.chomp
   end
   assign_rooms(speakers).each do |rm_assignment|
-    puts rm_assignment
+    puts rm_assignment.chomp
   end
 end
